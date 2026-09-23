@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Spice Table | Authentic Fine Dining & Modern Indian Cuisine</title>
+  <meta name="description" content="Welcome to The Spice Table. Taste tradition served with a modern twist. Fresh ingredients, authentic Indian flavors, and unforgettable dining experiences in Guntur.">
+  <meta property="og:title" content="The Spice Table | Authentic Fine Dining">
+  <meta property="og:description" content="Fresh ingredients, authentic Indian flavors and unforgettable dining experiences.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Google Web Fonts: Playfair Display (Serif) & Plus Jakarta Sans (Clean Modern Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- External Stylesheet (Pure CSS3, No Frameworks) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       1. NAVIGATION BAR (Sticky with pure CSS mobile toggle)
+       ========================================================================= -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <!-- Restaurant Logo / Brand -->
+      <a href="index.html" class="brand-logo" aria-label="The Spice Table Home">
+        <span class="brand-emblem" aria-hidden="true">⚜</span>
+        <span class="brand-name">THE SPICE <span>TABLE</span></span>
+      </a>
+
+      <!-- Pure CSS Hamburger Checkbox Hack for Mobile Devices (No JS required) -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <!-- Navigation Links to Separate Web Pages -->
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="menu.html" class="nav-link">Menu</a></li>
+        <li><a href="specials.html" class="nav-link">Specials</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- Prominent Call-to-Action Button -->
+      <div class="nav-actions">
+        <a href="menu.html" class="btn btn-gold btn-sm">View Menu</a>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- =========================================================================
+       2. HERO SECTION
+       ========================================================================= -->
+  <section class="hero-section" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <!-- Small Kicker Badge -->
+      <div class="hero-badge">Welcome to The Spice Table</div>
+
+      <!-- Main Headline -->
+      <h1 class="hero-title">
+        Taste the Tradition, Served with a <span>Modern Twist</span>
+      </h1>
+
+      <!-- Subtitle -->
+      <p class="hero-subtitle">
+        Fresh ingredients, authentic flavors and unforgettable dining experiences crafted with passion in every bite.
+      </p>
+
+      <!-- Action Buttons -->
+      <div class="hero-buttons">
+        <a href="menu.html" class="btn btn-gold">Explore Menu</a>
+        <a href="contact.html#reservation" class="btn btn-outline-white">Reserve a Table</a>
+      </div>
+
+      <!-- Key Service Highlights Bar -->
+      <div class="hero-features-bar">
+        <div class="hero-feature-item">
+          <span class="hero-feature-icon">★</span>
+          <span>4.9 / 5 Guest Rating</span>
+        </div>
+        <div class="hero-feature-item">
+          <span class="hero-feature-icon">♦</span>
+          <span>Authentic Heritage Recipes</span>
+        </div>
+        <div class="hero-feature-item">
+          <span class="hero-feature-icon">✦</span>
+          <span>Fresh Daily Farm Ingredients</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       3. RESTAURANT INTRODUCTION PREVIEW
+       ========================================================================= -->
+  <section class="intro-section" id="intro">
+    <div class="container">
+      <div class="intro-grid">
+        <!-- Visual Food Image with Offset Frame -->
+        <div class="intro-image-wrapper">
+          <div class="intro-image-frame">
+            <img 
+              src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=85" 
+              alt="The Spice Table elegant restaurant atmosphere and dining ambiance"
+              loading="lazy"
+            >
+          </div>
+          <div class="intro-experience-badge">
+            <div class="intro-experience-number">15+</div>
+            <div class="intro-experience-text">Years of Heritage</div>
+          </div>
+        </div>
+
+        <!-- Introduction Narrative Content -->
+        <div class="intro-content">
+          <span class="section-kicker">Our Heritage & Story</span>
+          <h2 class="section-title">Where Every Dish Tells a Story</h2>
+          <p class="intro-paragraph">
+            At The Spice Table, we combine centuries-old culinary traditions with modern presentation and the freshest local ingredients. Every dish is a tribute to the rich spices of India, curated to give you an unforgettable sensory experience.
+          </p>
+
+          <!-- 3 Highlights Required by User Brief -->
+          <div class="intro-highlights">
+            <div class="highlight-card">
+              <div class="highlight-icon-box">🍃</div>
+              <div class="highlight-info">
+                <h4>Fresh Ingredients</h4>
+                <p>Carefully selected ingredients every day.</p>
+              </div>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon-box">🌶️</div>
+              <div class="highlight-info">
+                <h4>Authentic Flavors</h4>
+                <p>Traditional recipes prepared with passion.</p>
+              </div>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon-box">🍷</div>
+              <div class="highlight-info">
+                <h4>Warm Hospitality</h4>
+                <p>Good food served with a memorable experience.</p>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+            <a href="about.html" class="btn btn-gold">Read Full Story</a>
+            <a href="menu.html" class="btn btn-outline-gold">View Menu</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       4. CHEF'S SPECIAL PREVIEW SECTION
+       ========================================================================= -->
+  <section class="specials-section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Grand Culinary Creations</span>
+        <h2 class="section-title">Chef's Specials</h2>
+        <p class="section-subtitle">
+          Celebrated signature recipes perfected through generations and prepared with rare spices and royal care.
+        </p>
+      </div>
+
+      <div class="specials-grid">
+        <!-- Special 1: Signature Chicken Biryani -->
+        <article class="special-card">
+          <div class="special-card-media">
+            <img 
+              src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=800&q=85" 
+              alt="Signature Chicken Biryani served in royal clay pot"
+              loading="lazy"
+            >
+            <span class="chef-badge">★ Chef's Choice</span>
+          </div>
+          <div class="special-card-body">
+            <div class="special-card-header">
+              <h3 class="special-card-title">Signature Chicken Biryani</h3>
+              <span class="special-card-price">₹390</span>
+            </div>
+            <p class="special-card-description">
+              Slow-cooked dum biryani layered with aged basmati rice, saffron, and tender chicken steeped in royal secret spices.
+            </p>
+            <div class="special-card-features">
+              <div class="special-feature-item"><span class="special-feature-bullet">◆</span> Saffron Infused</div>
+              <div class="special-feature-item"><span class="special-feature-bullet">◆</span> Dum Cooked</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Special 2: Royal Paneer Tikka -->
+        <article class="special-card">
+          <div class="special-card-media">
+            <img 
+              src="https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=800&q=85" 
+              alt="Royal Paneer Tikka sizzling from tandoor"
+              loading="lazy"
+            >
+            <span class="chef-badge">★ Chef's Choice</span>
+          </div>
+          <div class="special-card-body">
+            <div class="special-card-header">
+              <h3 class="special-card-title">Royal Paneer Tikka</h3>
+              <span class="special-card-price">₹340</span>
+            </div>
+            <p class="special-card-description">
+              Prime cottage cheese cubes marinated in hung curd, saffron & aromatic spices, charred to smoky perfection in clay tandoor.
+            </p>
+            <div class="special-card-features">
+              <div class="special-feature-item"><span class="special-feature-bullet">◆</span> Clay Tandoor</div>
+              <div class="special-feature-item"><span class="special-feature-bullet">◆</span> Malai Paneer</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Special 3: Special Chocolate Brownie -->
+        <article class="special-card">
+          <div class="special-card-media">
+            <img 
+              src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=85" 
+              alt="Special Chocolate Brownie with molten fudge"
+              loading="lazy"
+            >
+            <span class="chef-badge">★ Chef's Choice</span>
+          </div>
+          <div class="special-card-body">
+            <div class="special-card-header">
+              <h3 class="special-card-title">Special Chocolate Brownie</h3>
+              <span class="special-card-price">₹210</span>
+            </div>
+            <p class="special-card-description">
+              Warm Belgian dark chocolate fudge with a molten core, accompanied by rich vanilla bean gelato and dark cocoa drizzle.
+            </p>
+            <div class="special-card-features">
+              <div class="special-feature-item"><span class="special-feature-bullet">◆</span> Molten Center</div>
+              <div class="special-feature-item"><span class="special-feature-bullet">◆</span> Gelato Scoop</div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div style="text-align: center; margin-top: 48px;">
+        <a href="specials.html" class="btn btn-gold">Explore All Chef's Specials →</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       5. WHY CHOOSE US SECTION
+       ========================================================================= -->
+  <section class="why-us-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">The Spice Table Difference</span>
+        <h2 class="section-title">Why Dine With Us?</h2>
+        <p class="section-subtitle">
+          We combine genuine passion with culinary excellence to make every dining moment unforgettable.
+        </p>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon" aria-hidden="true">🍃</div>
+          <h3 class="why-title">Fresh Ingredients</h3>
+          <p class="why-text">
+            Handpicked farm produce, cold-pressed oils, and farm-fresh spices sourced daily from certified local growers.
+          </p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon" aria-hidden="true">👨‍🍳</div>
+          <h3 class="why-title">Expert Chefs</h3>
+          <p class="why-text">
+            Accomplished master chefs trained in traditional royal culinary arts, dedicated to flavor harmony.
+          </p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon" aria-hidden="true">❤️</div>
+          <h3 class="why-title">Made With Passion</h3>
+          <p class="why-text">
+            Every sauce is slow-simmered and seasoned to perfection with uncompromised love and attention to detail.
+          </p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon" aria-hidden="true">✨</div>
+          <h3 class="why-title">Memorable Experience</h3>
+          <p class="why-text">
+            Warm ambient lighting, soulful instrumental melodies, and gracious hospitality that makes you feel at home.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       6. CUSTOMER REVIEWS
+       ========================================================================= -->
+  <section class="reviews-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Kind Words From Our Guests</span>
+        <h2 class="section-title">What Our Guests Say</h2>
+        <p class="section-subtitle">
+          Honest feedback from food lovers who have dined at The Spice Table.
+        </p>
+      </div>
+
+      <div class="reviews-grid">
+        <article class="review-card">
+          <div>
+            <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="review-quote">
+              "The food was delicious and beautifully presented. The biryani was absolutely amazing!"
+            </p>
+          </div>
+          <div class="review-author">
+            <div class="review-avatar-placeholder" aria-hidden="true">R</div>
+            <div>
+              <div class="review-author-name">Rahul</div>
+              <div class="review-author-tag">Verified Diner</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="review-card">
+          <div>
+            <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="review-quote">
+              "Excellent atmosphere, friendly service and great food. Definitely coming back."
+            </p>
+          </div>
+          <div class="review-author">
+            <div class="review-avatar-placeholder" aria-hidden="true">P</div>
+            <div>
+              <div class="review-author-name">Priya</div>
+              <div class="review-author-tag">Frequent Guest</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="review-card">
+          <div>
+            <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="review-quote">
+              "A perfect place for a family dinner. Everything tasted fresh and flavorful."
+            </p>
+          </div>
+          <div class="review-author">
+            <div class="review-avatar-placeholder" aria-hidden="true">A</div>
+            <div>
+              <div class="review-author-name">Arjun</div>
+              <div class="review-author-tag">Family Celebration</div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       7. RESERVATION CALL TO ACTION
+       ========================================================================= -->
+  <section class="reservation-section">
+    <div class="reservation-overlay"></div>
+    <div class="container" style="position: relative; z-index: 2; text-align: center; max-width: 760px;">
+      <span class="section-kicker">Book Your Dining Experience</span>
+      <h2 class="section-title" style="color: #ffffff; margin-bottom: 18px;">Ready for a Delicious Experience?</h2>
+      <p style="font-size: 1.15rem; color: #e2e8f0; margin-bottom: 36px; line-height: 1.7;">
+        Join us for great food, warm hospitality and unforgettable moments. Reserve your table in advance or give us a quick call.
+      </p>
+      <div style="display: flex; gap: 18px; justify-content: center; flex-wrap: wrap;">
+        <a href="contact.html#reservation" class="btn btn-gold">Reserve a Table</a>
+        <a href="tel:+919999999999" class="btn btn-outline-white">Call Us: +91 99999 99999</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       8. FOOTER
+       ========================================================================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Info -->
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo" aria-label="The Spice Table Home">
+            <span class="brand-emblem" aria-hidden="true">⚜</span>
+            <span class="brand-name">THE SPICE <span>TABLE</span></span>
+          </a>
+          <p class="footer-tagline">
+            Good food. Great company. Memorable moments. Celebrating the authentic culinary soul of India with modern elegance.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">IG</a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook">FB</a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="YouTube">YT</a>
+          </div>
+        </div>
+
+        <!-- Multi-page Links -->
+        <div>
+          <h4 class="footer-column-title">Explore Pages</h4>
+          <ul class="footer-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="specials.html">Chef's Specials</a></li>
+            <li><a href="about.html">About Us & Kitchen</a></li>
+            <li><a href="contact.html">Contact & Reservation</a></li>
+          </ul>
+        </div>
+
+        <!-- Dining Hours -->
+        <div>
+          <h4 class="footer-column-title">Dining Hours</h4>
+          <ul class="footer-hours-list">
+            <li class="footer-hours-item">
+              <span>Monday – Thursday:</span>
+              <span>11:00 AM – 11:00 PM</span>
+            </li>
+            <li class="footer-hours-item">
+              <span>Friday – Sunday:</span>
+              <span>11:00 AM – 11:30 PM</span>
+            </li>
+            <li class="footer-hours-item">
+              <span>Kitchen Last Order:</span>
+              <span>10:30 PM</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 The Spice Table. All Rights Reserved.</p>
+        <div class="footer-bottom-links">
+          <span>Fresh. Authentic. Memorable.</span>
+          <a href="#hero" class="back-to-top">Back to Top ↑</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

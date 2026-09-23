@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Table Reservation | The Spice Table Restaurant</title>
+  <meta name="description" content="Reserve a table or get in touch with The Spice Table in Guntur. View location, opening hours, contact number, and booking inquiry.">
+  <meta property="og:title" content="Contact & Reservation | The Spice Table">
+  <meta property="og:description" content="Reserve a table or get in touch with The Spice Table in Guntur.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- External Stylesheet (Pure CSS3) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       1. NAVIGATION BAR
+       ========================================================================= -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="The Spice Table Home">
+        <span class="brand-emblem" aria-hidden="true">⚜</span>
+        <span class="brand-name">THE SPICE <span>TABLE</span></span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="menu.html" class="nav-link">Menu</a></li>
+        <li><a href="specials.html" class="nav-link">Specials</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="contact.html" class="nav-link active">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#reservation" class="btn btn-gold btn-sm">Book a Table</a>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- =========================================================================
+       2. PAGE HERO BANNER
+       ========================================================================= -->
+  <section class="page-hero" id="top">
+    <div class="page-hero-overlay"></div>
+    <div class="container page-hero-content">
+      <span class="section-kicker">Find & Connect With Us</span>
+      <h1 class="page-hero-title">Contact & <span>Reservations</span></h1>
+      <p class="page-hero-subtitle">
+        Join us for great food, warm hospitality and unforgettable moments. Find our location in Guntur or book your table below.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       3. CONTACT INFORMATION & MAP SECTION
+       ========================================================================= -->
+  <section class="contact-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Visit Our Restaurant</span>
+        <h2 class="section-title">Where to Find Us</h2>
+        <p class="section-subtitle">
+          Located conveniently on Food Street in Guntur, with dedicated valet parking and full family dining rooms.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Details Stack -->
+        <div class="contact-cards-stack">
+          <!-- Visit Us -->
+          <div class="contact-card">
+            <div class="contact-icon-box" aria-hidden="true">📍</div>
+            <div class="contact-info">
+              <h4>Visit Us</h4>
+              <p>
+                123 Food Street,<br>
+                Guntur, Andhra Pradesh, India
+              </p>
+            </div>
+          </div>
+
+          <!-- Opening Hours -->
+          <div class="contact-card">
+            <div class="contact-icon-box" aria-hidden="true">⏰</div>
+            <div class="contact-info">
+              <h4>Opening Hours</h4>
+              <p>
+                Monday – Sunday<br>
+                <strong>11:00 AM – 11:00 PM</strong>
+              </p>
+            </div>
+          </div>
+
+          <!-- Contact Inquiries -->
+          <div class="contact-card">
+            <div class="contact-icon-box" aria-hidden="true">📞</div>
+            <div class="contact-info">
+              <h4>Direct Inquiries</h4>
+              <p>
+                Phone: <a href="tel:+919999999999">+91 99999 99999</a><br>
+                Email: <a href="mailto:restaurant@example.com">restaurant@example.com</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Styled HTML Map Placeholder -->
+        <div class="map-placeholder">
+          <div class="map-visual">
+            <div class="map-pin-pulse"></div>
+            <div class="map-pin-container">
+              <div class="map-pin" aria-hidden="true">📍</div>
+              <div class="map-pin-label">The Spice Table · Guntur</div>
+            </div>
+          </div>
+          <div class="map-footer">
+            <span class="map-footer-text">123 Food Street, Guntur, AP</span>
+            <a 
+              href="https://maps.google.com/?q=123+Food+Street+Guntur+Andhra+Pradesh" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="btn btn-outline-gold btn-sm"
+            >
+              Open in Maps ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       4. TABLE RESERVATION SECTION
+       ========================================================================= -->
+  <section class="reservation-section" id="reservation">
+    <div class="reservation-overlay"></div>
+    <div class="container reservation-container">
+      <!-- Left: Invitation Text & Instant Call Action -->
+      <div class="reservation-info">
+        <span class="section-kicker">Reserve In Advance</span>
+        <h2 class="section-title">Ready for a Delicious Experience?</h2>
+        <p>
+          Join us for great food, warm hospitality and unforgettable moments. For parties of more than 8 people or private banquet requests, feel free to call us directly.
+        </p>
+
+        <div class="reservation-quick-actions">
+          <a href="tel:+919999999999" class="btn btn-gold">Call Us: +91 99999 99999</a>
+          <a href="menu.html" class="btn btn-outline-white">Explore Menu First</a>
+        </div>
+      </div>
+
+      <!-- Right: Reservation Inquiry Card (Pure HTML/CSS form) -->
+      <div class="reservation-card" id="reservation-form">
+        <h3 class="reservation-card-title">Reserve a Table</h3>
+        <p class="reservation-card-subtitle">Please share your details to hold your preferred table.</p>
+
+        <form action="#reservation" method="get">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="res-name" class="form-label">Full Name</label>
+              <input type="text" id="res-name" name="name" class="form-control" placeholder="e.g. Rahul Sharma" required>
+            </div>
+
+            <div class="form-group">
+              <label for="res-phone" class="form-label">Phone Number</label>
+              <input type="tel" id="res-phone" name="phone" class="form-control" placeholder="+91 98765 43210" required>
+            </div>
+
+            <div class="form-group">
+              <label for="res-date" class="form-label">Date</label>
+              <input type="date" id="res-date" name="date" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+              <label for="res-time" class="form-label">Time Slot</label>
+              <select id="res-time" name="time" class="form-control" required>
+                <option value="12:00 PM">12:00 PM (Lunch)</option>
+                <option value="01:30 PM">01:30 PM (Lunch)</option>
+                <option value="07:00 PM" selected>07:00 PM (Dinner)</option>
+                <option value="08:30 PM">08:30 PM (Dinner)</option>
+                <option value="09:30 PM">09:30 PM (Dinner)</option>
+              </select>
+            </div>
+
+            <div class="form-group form-group-full">
+              <label for="res-guests" class="form-label">Number of Guests</label>
+              <select id="res-guests" name="guests" class="form-control" required>
+                <option value="1">1 Person</option>
+                <option value="2" selected>2 Persons (Standard)</option>
+                <option value="4">4 Persons (Family)</option>
+                <option value="6">6 Persons (Group)</option>
+                <option value="8+">8+ Persons (Party)</option>
+              </select>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-gold btn-form-submit">Confirm Reservation Request</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       5. FOOTER
+       ========================================================================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo" aria-label="The Spice Table Home">
+            <span class="brand-emblem" aria-hidden="true">⚜</span>
+            <span class="brand-name">THE SPICE <span>TABLE</span></span>
+          </a>
+          <p class="footer-tagline">
+            Good food. Great company. Memorable moments. Celebrating the authentic culinary soul of India with modern elegance.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">IG</a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook">FB</a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="YouTube">YT</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-column-title">Explore Pages</h4>
+          <ul class="footer-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="specials.html">Chef's Specials</a></li>
+            <li><a href="about.html">About Us & Kitchen</a></li>
+            <li><a href="contact.html">Contact & Reservation</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-column-title">Dining Hours</h4>
+          <ul class="footer-hours-list">
+            <li class="footer-hours-item">
+              <span>Monday – Thursday:</span>
+              <span>11:00 AM – 11:00 PM</span>
+            </li>
+            <li class="footer-hours-item">
+              <span>Friday – Sunday:</span>
+              <span>11:00 AM – 11:30 PM</span>
+            </li>
+            <li class="footer-hours-item">
+              <span>Kitchen Last Order:</span>
+              <span>10:30 PM</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 The Spice Table. All Rights Reserved.</p>
+        <div class="footer-bottom-links">
+          <span>Fresh. Authentic. Memorable.</span>
+          <a href="#top" class="back-to-top">Back to Top ↑</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

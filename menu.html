@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Menu | The Spice Table Restaurant</title>
+  <meta name="description" content="Explore our complete menu of Starters, Main Courses, and Desserts at The Spice Table. Handcrafted authentic flavors prepared fresh daily.">
+  <meta property="og:title" content="Our Menu | The Spice Table">
+  <meta property="og:description" content="Explore our complete menu of Starters, Main Courses, and Desserts at The Spice Table.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- External Stylesheet (Pure CSS3) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       1. NAVIGATION BAR
+       ========================================================================= -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="The Spice Table Home">
+        <span class="brand-emblem" aria-hidden="true">⚜</span>
+        <span class="brand-name">THE SPICE <span>TABLE</span></span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="menu.html" class="nav-link active">Menu</a></li>
+        <li><a href="specials.html" class="nav-link">Specials</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="contact.html#reservation" class="btn btn-gold btn-sm">Reserve Table</a>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- =========================================================================
+       2. PAGE HERO BANNER
+       ========================================================================= -->
+  <section class="page-hero" id="top">
+    <div class="page-hero-overlay"></div>
+    <div class="container page-hero-content">
+      <span class="section-kicker">Carefully Crafted Selection</span>
+      <h1 class="page-hero-title">Our <span>Menu</span></h1>
+      <p class="page-hero-subtitle">
+        Explore our carefully crafted selection of dishes, from crispy starters to fragrant biryanis and decadent desserts.
+      </p>
+
+      <!-- Quick Category Filter Bar -->
+      <div class="category-nav-bar">
+        <a href="#starters" class="category-nav-link">Starters (3)</a>
+        <a href="#main-course" class="category-nav-link">Main Course (4)</a>
+        <a href="#desserts" class="category-nav-link">Desserts (3)</a>
+        <a href="specials.html" class="category-nav-link" style="border-color: var(--color-gold); color: var(--color-gold);">Chef's Specials →</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       3. COMPLETE RESTAURANT MENU
+       ========================================================================= -->
+  <main class="menu-section">
+    <div class="container">
+
+      <!-- CATEGORY 1: STARTERS -->
+      <div class="menu-category-block" id="starters">
+        <div class="category-header">
+          <h2 class="category-title">Starters</h2>
+          <div class="category-divider"></div>
+          <span class="category-count">Crispy & Appetizing</span>
+        </div>
+
+        <div class="menu-grid">
+          <!-- 1. Crispy Paneer Bites -->
+          <article class="food-card">
+            <div class="food-card-media">
+              <img 
+                src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=600&q=80" 
+                alt="Crispy Paneer Bites with herbs"
+                loading="lazy"
+              >
+              <span class="food-tag veg">Vegetarian</span>
+            </div>
+            <div class="food-card-body">
+              <div class="food-card-header">
+                <h3 class="food-name">Crispy Paneer Bites</h3>
+                <span class="food-price">₹220</span>
+              </div>
+              <p class="food-description">Crispy cottage cheese with herbs and spices, served golden with mint coriander dip.</p>
+              <div class="food-card-footer">
+                <span class="food-spice-level">Spice: <span>Mild ●</span></span>
+                <span class="category-count">Appetizer</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2. Chicken 65 -->
+          <article class="food-card">
+            <div class="food-card-media">
+              <img 
+                src="https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?auto=format&fit=crop&w=600&q=80" 
+                alt="Chicken 65 South Indian spices"
+                loading="lazy"
+              >
+              <span class="food-tag spicy">Spicy</span>
+            </div>
+            <div class="food-card-body">
+              <div class="food-card-header">
+                <h3 class="food-name">Chicken 65</h3>
+                <span class="food-price">₹280</span>
+              </div>
+              <p class="food-description">Spicy crispy chicken with South Indian flavors, tossed in tempered curry leaves and green chillies.</p>
+              <div class="food-card-footer">
+                <span class="food-spice-level">Spice: <span>Hot ●●●</span></span>
+                <span class="category-count">Appetizer</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3. Golden Corn Tikki -->
+          <article class="food-card">
+            <div class="food-card-media">
+              <img 
+                src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80" 
+                alt="Golden Corn Tikki patties"
+                loading="lazy"
+              >
+              <span class="food-tag veg">Vegetarian</span>
+            </div>
+            <div class="food-card-body">
+              <div class="food-card-header">
+                <h3 class="food-name">Golden Corn Tikki</h3>
+                <span class="food-price">₹180</span>
+              </div>
+              <p class="food-description">Crispy sweet corn and herb patties crusted with breadcrumbs and served with tangy tamarind chutney.</p>
+              <div class="food-card-footer">
+                <span class="food-spice-level">Spice: <span>Mild ●</span></span>
+                <span class="category-count">Appetizer</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- CATEGORY 2: MAIN COURSE -->
+      <div class="menu-category-block" id="main-course">
+        <div class="category-header">
+          <h2 class="category-title">Main Course</h2>
+          <div class="category-divider"></div>
+          <span class="category-count">Hearty & Aromatic</span>
+        </div>
+
+        <div class="menu-grid">
+          <!-- 1. Paneer Butter Masala -->
+          <article class="food-card">
+            <div class="food-card-media">
+              <img 
+                src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=600&q=80" 
+                alt="Paneer Butter Masala creamy tomato curry"
+                loading="lazy"
+              >
+              <span class="food-tag veg">Vegetarian</span>
+            </div>
+            <div class="food-card-body">
+              <div class="food-card-header">
+                <h3 class="food-name">Paneer Butter Masala</h3>
+                <span class="food-price">₹280</span>
+              </div>
+              <p class="food-description">Creamy tomato gravy with soft paneer cubes simmered in butter and aromatic fenugreek leaves.</p>
+              <div class="food-card-footer">
+                <span class="food-spice-level">Spice: <span>Medium ●●</span></span>
+                <span class="category-count">Curry</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2. Chicken Biryani -->
+          <article class="food-card">
+            <div class="food-card-media">
+              <img 
+                src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80" 
+                alt="Chicken Biryani basmati rice"
+                loading="lazy"
+              >
+              <span class="food-tag">Bestseller</span>
+            </div>
+            <div class="food-card-body">
+              <div class="food-card-header">
+                <h3 class="food-name">Chicken Biryani</h3>
+                <span class="food-price">₹320</span>
+              </div>
+              <p class="food-description">Fragrant basmati rice with tender chicken and aromatic spices, slow-cooked in traditional dum style.</p>
+              <div class="food-card-footer">
+                <span class="food-spice-level">Spice: <span>Medium ●●</span></span>
+                <span class="category-count">Biryani</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3. Vegetable Biryani -->
+          <article class="food-card">
+            <div class="food-card-media">
+              <img 
+                src="https://images.unsplash.com/photo-1645177628172-a94c1f96e6db?auto=format&fit=crop&w=600&q=80" 
+                alt="Vegetable Biryani with vegetables"
+                loading="lazy"
+              >
+              <span class="food-tag veg">Vegetarian</span>
+            </div>
+            <div class="food-card-body">
+              <div class="food-card-header">
+                <h3 class="food-name">Vegetable Biryani</h3>
+                <span class="food-price">₹240</span>
+              </div>
+              <p class="food-description">Fresh vegetables cooked with fragrant basmati rice, saffron, mint, and crisp fried brown onions.</p>
+              <div class="food-card-footer">
+                <span class="food-spice-level">Spice: <span>Medium ●●</span></span>
+                <span class="category-count">Biryani</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 4. Butter Naan -->
+          <article class="food-card">
+            <div class="food-card-media">
+              <img 
+                src="https://images.unsplash.com/photo-1626074353765-517a681e40be?auto=format&fit=crop&w=600&q=80" 
+                alt="Butter Naan clay tandoor baked"
+                loading="lazy"
+              >
+              <span class="food-tag veg">Tandoor</span>
+            </div>
+            <div class="food-card-body">
+              <div class="food-card-header">
+                <h3 class="food-name">Butter Naan</h3>
+                <span class="food-price">₹60</span>
+              </div>
+              <p class="food-description">Soft naan finished with butter, freshly blistered against the hot clay walls of our clay tandoor.</p>
+              <div class="food-card-footer">
+                <span class="food-spice-level">Bread: <span>Fresh</span></span>
+                <span class="category-count">Tandoor</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- CATEGORY 3: DESSERTS -->
+      <div class="menu-category-block" id="desserts">
+        <div class="category-header">
+          <h2 class="category-title">Desserts</h2>
+          <div class="category-divider"></div>
+          <span class="category-count">Sweet Delights</span>
+        </div>
+
+        <div class="menu-grid">
+          <!-- 1. Gulab Jamun -->
+          <article class="food-card">
+            <div class="food-card-media">
+              <img 
+                src="https://images.unsplash.com/photo-1601050690113-585a0659f816?auto=format&fit=crop&w=600&q=80" 
+                alt="Warm Gulab Jamun in sweet syrup"
+                loading="lazy"
+              >
+              <span class="food-tag">Traditional</span>
+            </div>
+            <div class="food-card-body">
+              <div class="food-card-header">
+                <h3 class="food-name">Gulab Jamun</h3>
+                <span class="food-price">₹120</span>
+              </div>
+              <p class="food-description">Warm traditional sweet served with a rich syrup infused with fragrant cardamom and rose water.</p>
+              <div class="food-card-footer">
+                <span class="food-spice-level">Sweetness: <span>Rich ●●●</span></span>
+                <span class="category-count">Dessert</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2. Chocolate Brownie -->
+          <article class="food-card">
+            <div class="food-card-media">
+              <img 
+                src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=600&q=80" 
+                alt="Warm chocolate brownie"
+                loading="lazy"
+              >
+              <span class="food-tag">Decadent</span>
+            </div>
+            <div class="food-card-body">
+              <div class="food-card-header">
+                <h3 class="food-name">Chocolate Brownie</h3>
+                <span class="food-price">₹160</span>
+              </div>
+              <p class="food-description">Warm chocolate brownie with a rich chocolate flavor, toasted walnuts, and melted dark chocolate sauce.</p>
+              <div class="food-card-footer">
+                <span class="food-spice-level">Sweetness: <span>Gourmet ●●</span></span>
+                <span class="category-count">Dessert</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3. Classic Ice Cream -->
+          <article class="food-card">
+            <div class="food-card-media">
+              <img 
+                src="https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&w=600&q=80" 
+                alt="Classic ice cream scoops"
+                loading="lazy"
+              >
+              <span class="food-tag">Chilled</span>
+            </div>
+            <div class="food-card-body">
+              <div class="food-card-header">
+                <h3 class="food-name">Classic Ice Cream</h3>
+                <span class="food-price">₹100</span>
+              </div>
+              <p class="food-description">Creamy ice cream with your choice of flavor: Vanilla Bean, Dark Belgian Chocolate, or Pistachio Kesar.</p>
+              <div class="food-card-footer">
+                <span class="food-spice-level">Sweetness: <span>Chilled ●●</span></span>
+                <span class="category-count">Dessert</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Chef's Specials Promotion Banner -->
+      <div style="background-color: var(--color-secondary-dark); border-radius: var(--radius-md); padding: 40px 32px; border: 1px solid var(--color-gold); margin-top: 60px; text-align: center; color: #ffffff;">
+        <span class="section-kicker">Looking For Something Truly Special?</span>
+        <h3 style="font-family: var(--font-serif); font-size: 1.8rem; margin-bottom: 12px; color: #ffffff;">Discover Chef's Specials</h3>
+        <p style="color: var(--color-text-light-muted); max-width: 600px; margin: 0 auto 24px auto;">
+          Experience our royal signature creations: Signature Chicken Biryani, Royal Paneer Tikka, and Special Chocolate Brownie.
+        </p>
+        <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+          <a href="specials.html" class="btn btn-gold">View Chef's Specials →</a>
+          <a href="contact.html#reservation" class="btn btn-outline-white">Book Your Table</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+
+  <!-- =========================================================================
+       4. FOOTER
+       ========================================================================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo" aria-label="The Spice Table Home">
+            <span class="brand-emblem" aria-hidden="true">⚜</span>
+            <span class="brand-name">THE SPICE <span>TABLE</span></span>
+          </a>
+          <p class="footer-tagline">
+            Good food. Great company. Memorable moments. Celebrating the authentic culinary soul of India with modern elegance.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">IG</a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook">FB</a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="YouTube">YT</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-column-title">Explore Pages</h4>
+          <ul class="footer-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="specials.html">Chef's Specials</a></li>
+            <li><a href="about.html">About Us & Kitchen</a></li>
+            <li><a href="contact.html">Contact & Reservation</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-column-title">Dining Hours</h4>
+          <ul class="footer-hours-list">
+            <li class="footer-hours-item">
+              <span>Monday – Thursday:</span>
+              <span>11:00 AM – 11:00 PM</span>
+            </li>
+            <li class="footer-hours-item">
+              <span>Friday – Sunday:</span>
+              <span>11:00 AM – 11:30 PM</span>
+            </li>
+            <li class="footer-hours-item">
+              <span>Kitchen Last Order:</span>
+              <span>10:30 PM</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 The Spice Table. All Rights Reserved.</p>
+        <div class="footer-bottom-links">
+          <span>Fresh. Authentic. Memorable.</span>
+          <a href="#top" class="back-to-top">Back to Top ↑</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

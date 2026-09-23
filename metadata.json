@@ -1,0 +1,6 @@
+{
+  "name": "The Spice Table - Restaurant Menu",
+  "description": "Modern, premium and authentic restaurant menu and dining experience website for The Spice Table, crafted purely with HTML5 and CSS3.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
